@@ -2,6 +2,13 @@
     --display: 0;
 }
 
+.currentTotal {
+    text-align: right;
+    position: absolute;
+    right: 10px;
+    top: 5px;
+}
+
 .body {
     width: 400px;
     height: 500px;
@@ -46,8 +53,4 @@
     background-color: rgb(220,220,220);
     color: black;
     border: 1px black solid;
-}
-
-.number {
-    
 }
