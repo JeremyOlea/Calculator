@@ -1,0 +1,53 @@
+:root {
+    --display: 0;
+}
+
+.body {
+    width: 400px;
+    height: 500px;
+    background-color: rgb(128,128,128);
+    position: absolute;
+    left: 50%;
+    margin-left: -50px;
+    border-radius: 25px;
+    text-align: center;
+}
+
+.screen {
+    width: 350px;
+    height: 80px;
+    background-color: rgb(34, 106, 214);
+    position: absolute;
+    right: 25px;
+    top: 15px;
+    border-radius: 25px;
+}
+
+.heading {
+    font-family: "Times New Roman";
+    margin: auto;
+}
+
+.pad {
+    background-color: rgb(128,128,128);
+    width: 350px;
+    height: 310px;
+    position: absolute;
+    right: 25px;
+    top: 150px;
+    display: grid;
+    grid-template: repeat(5, 1fr) / repeat(4, 1fr);
+    
+}
+
+.button {
+    text-align: center;
+    font-weight: bold;
+    background-color: rgb(220,220,220);
+    color: black;
+    border: 1px black solid;
+}
+
+.number {
+    
+}
